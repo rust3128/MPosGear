@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/MPosGear.ico</file>
+    </qresource>
+</RCC>
