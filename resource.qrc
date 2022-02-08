@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>Images/MPosGear.ico</file>
+        <file>Translations/qtbase_ru.qm</file>
     </qresource>
 </RCC>

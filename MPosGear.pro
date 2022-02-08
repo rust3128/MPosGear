@@ -10,13 +10,24 @@ CONFIG += c++11
 win32: RC_ICONS = $$PWD/Images/MPosGear.ico
 
 SOURCES += \
+    DataBase/database.cpp \
+    GlobalSettings/globalsettings.cpp \
+    LoggingCategories/loggingcategories.cpp \
+    OptionsDialog/CriptPass.cpp \
+    OptionsDialog/optionsdialog.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
+    DataBase/database.h \
+    GlobalSettings/globalsettings.h \
+    LoggingCategories/loggingcategories.h \
+    OptionsDialog/CriptPass.h \
+    OptionsDialog/optionsdialog.h \
     mainwindow.h
 
 FORMS += \
+    OptionsDialog/optionsdialog.ui \
     mainwindow.ui
 
 # Default rules for deployment.
